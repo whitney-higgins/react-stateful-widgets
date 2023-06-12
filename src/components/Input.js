@@ -62,8 +62,10 @@ export default function Input() {
   return (
     <div className="widget-input container">
       <h2>Input</h2>
-      <div id="output" style={style}></div>
-      {inputValue.toUpperCase()}
+      <div id="output" style={style}>
+        {inputValue.toUpperCase()}
+      </div>
+
       {/* STEP 3 */}
       <div>
         <input
